@@ -1,7 +1,7 @@
 ---
 # YAML documents begin with the document separator ---
 
-- hosts: ubuntu-c
+- hosts: centos-c
 
   # Task: the list of tasks that will be executed within the play, this section
   # can also be used for pre and post tasks

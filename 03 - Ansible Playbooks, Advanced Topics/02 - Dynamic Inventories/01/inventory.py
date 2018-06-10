@@ -61,7 +61,7 @@ class Inventory(object):
                 }
             },
             "control": {
-                "hosts": ["ubuntu-c"],
+                "hosts": ["centos-c"],
             },
             "ubuntu": {
                 "hosts": ["ubuntu1", "ubuntu2", "ubuntu3"],
@@ -78,7 +78,7 @@ class Inventory(object):
             'centos1': {
                 'ansible_port': 2222
             },
-            'ubuntu-c': {
+            'centos-c': {
                 'ansible_connection': 'local'
             }
         }

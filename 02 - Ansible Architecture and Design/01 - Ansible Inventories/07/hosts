@@ -1,5 +1,5 @@
 [control]
-ubuntu-c ansible_connection=local
+centos-c ansible_connection=local
 
 [centos]
 centos1 ansible_user=root ansible_port=2222

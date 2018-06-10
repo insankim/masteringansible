@@ -1,7 +1,7 @@
 {
     "control": {
         "hosts": {
-            "ubuntu-c": {
+            "centos-c": {
                 "ansible_connection": "local"
             }
         }

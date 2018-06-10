@@ -16,9 +16,9 @@
         msg: >
              --== Ansible Jinja2 if statement ==--
  
-             {# If the hostname is ubuntu-c, include a message -#}
-             {% if ansible_hostname == "ubuntu-c" -%}
-                   This is ubuntu-c
+             {# If the hostname is centos-c, include a message -#}
+             {% if ansible_hostname == "centos-c" -%}
+                   This is centos-c
              {% endif %}
 
 # Three dots indicate the end of a YAML document

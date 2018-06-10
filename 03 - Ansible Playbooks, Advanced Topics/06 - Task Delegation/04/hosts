@@ -1,5 +1,5 @@
 [control]
-ubuntu-c
+centos-c
 
 [dns]
 dnsmasq
