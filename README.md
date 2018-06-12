@@ -29,7 +29,7 @@ ____
 # ssh-copy-id <host>
 
 ```
-1. 01-05 Validating Ansible Installation
+1. 01-05-03 Validating Ansible Installation
 ```
 ansible all -m ping
 ansible all -i -m ping
@@ -43,9 +43,9 @@ ansible ubuntu -m ping
 # ansible linux -m ping -e 'ansible_port=22'
 ```
 
-3. 02-05 Ansible Playbooks, Variables
+3. 02-05-17 Ansible Playbooks, Variables
 ```
-# ansible-playbook variables_playbook
+# ansible-playbook variables_playbook.yml
 # ansible-playbook variables_playbook.yml -e '{"extra_vars_key": "extra vars value in json"}'
 # ansible-playbook variables_playbook.yml -e '{extra_vars_key: extra vars value in yaml}'
 # ansible-playbook variables_playbook.yml -e @extra_vars_file.yml
@@ -54,16 +54,16 @@ ansible ubuntu -m ping
 # ansible
 ```
 
-4. 02-06 Ansible Playbooks, Facts
-- # ansible-playbook faces_playbook.yml
+4. 02-06-06 Ansible Playbooks, Facts
+- # ansible-playbook facts_playbook.yml
 
-5. 02-08 Ansible Playbooks, Creating and Executing
+5. 02-08-10 Ansible Playbooks, Creating and Executing
 - # ansible-playbook nginx_playbook.yml
 
 6. 03-03 Register and when
 - # ansible-playbook register_when_playbook.yml
 
-7. 04-03 Structuring Ansible Playbooks, Using Roles
+7. 04-03-06 Structuring Ansible Playbooks, Using Roles
 - # ansible-playbook nginx_awsomeweb_plybook.yml
 
 
