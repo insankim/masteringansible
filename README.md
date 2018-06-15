@@ -55,44 +55,19 @@ ansible ubuntu -m ping
 ```
 
 4. 02-06-06 Ansible Playbooks, Facts
-\# ansible-playbook facts_playbook.yml
+```
+# anible-playbook facts_playbook.yml
+```
 
 5. 02-08-10 Ansible Playbooks, Creating and Executing
-> # ansible-playbook nginx_playbook.yml
+```
+# ansible-playbook nginx_playbook.yml
+```
 
 6. 03-03 Register and when
-> # ansible-playbook register_when_playbook.yml
+``` # ansible-playbook register_when_playbook.yml
+```
 
 7. 04-03-06 Structuring Ansible Playbooks, Using Roles
-> # ansible-playbook nginx_awsomeweb_plybook.yml
-
-
-## header2
-### header3
-
-> blockquotes
-
-1. ordered list 1
-2. ordered list 2
-3. ordered list 3
-
-* unordered with asterisk
-+ unordered with plus
-- unordered with minus
-    - unordered with minus and 4 spaces
-
-----
-four hyphens
-
-
-****
-four asterisks
-
-____
-four underlines
-
-*span*
-_span 2_
-
-**strong**
-__strong__
+```# ansible-playbook nginx_awsomeweb_plybook.yml
+```
