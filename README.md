@@ -65,9 +65,11 @@ ansible ubuntu -m ping
 ```
 
 6. 03-03 Register and when
-``` # ansible-playbook register_when_playbook.yml
+``` 
+# ansible-playbook register_when_playbook.yml
 ```
 
 7. 04-03-06 Structuring Ansible Playbooks, Using Roles
-```# ansible-playbook nginx_awsomeweb_plybook.yml
+```
+# ansible-playbook nginx_awsomeweb_plybook.yml
 ```
