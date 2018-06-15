@@ -58,13 +58,13 @@ ansible ubuntu -m ping
 \# ansible-playbook facts_playbook.yml
 
 5. 02-08-10 Ansible Playbooks, Creating and Executing
-\ # ansible-playbook nginx_playbook.yml
+> # ansible-playbook nginx_playbook.yml
 
 6. 03-03 Register and when
-\ # ansible-playbook register_when_playbook.yml
+> # ansible-playbook register_when_playbook.yml
 
 7. 04-03-06 Structuring Ansible Playbooks, Using Roles
-\ # ansible-playbook nginx_awsomeweb_plybook.yml
+> # ansible-playbook nginx_awsomeweb_plybook.yml
 
 
 ## header2
